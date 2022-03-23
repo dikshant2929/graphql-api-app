@@ -1,0 +1,25 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node src/server.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dikshant Godara",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "graphql-yoga": "^1.18.3",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.8"
+  },
+  "devDependencies": {
+    "dotenv": "^0.4.0",
+    "nodemon": "^2.0.15"
+  }
+}
